@@ -1,0 +1,7 @@
+{
+  "name": "design-pattern-code",
+  "devDependencies": {
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.5.5"
+  }
+}
