@@ -3,7 +3,7 @@ import { Milk } from './Condident/Milk';
 import { Mocha } from './Condident/Mocha';
 
 let expresso = new Expresso();
-let milk = new Milk(expresso);
-let mocha = new Mocha(milk);
+let condiment1 = new Milk(expresso);
+let condiment2 = new Mocha(condiment1);
 
-console.log(mocha.getDescription(), mocha.cost().toFixed() + '$');
+console.log(condiment2.getDescription(), mocha.cost().toFixed(1) + '$');
