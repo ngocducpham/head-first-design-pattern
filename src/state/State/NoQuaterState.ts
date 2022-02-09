@@ -10,7 +10,7 @@ export class NoQuaterState implements IGumballState {
 	}
 
 	ejectQuater(): void {
-		console.log('You haven’t inserted a quarter');
+		console.log("You haven't inserted a quarter");
 	}
 
 	turnCrank(): void {
