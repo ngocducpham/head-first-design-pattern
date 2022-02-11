@@ -2,7 +2,7 @@ import { Beverage } from '../Beverage/Beverage';
 import { CondimentBeverage } from './CondimentBeverage';
 
 export class Milk extends CondimentBeverage {
-	beverage: Beverage;
+	private beverage: Beverage;
 
 	constructor(beverage: Beverage) {
 		super();
